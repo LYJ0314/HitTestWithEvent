@@ -15,6 +15,7 @@
 		2CAC7EC61EFCC1B4006F4C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC7EC41EFCC1B4006F4C56 /* LaunchScreen.storyboard */; };
 		2CAC7ED11EFCC1B5006F4C56 /* HitTestWithEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC7ED01EFCC1B5006F4C56 /* HitTestWithEventTests.m */; };
 		2CAC7EDC1EFCC1B5006F4C56 /* HitTestWithEventUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC7EDB1EFCC1B5006F4C56 /* HitTestWithEventUITests.m */; };
+		2CAC7EEB1EFCDF9A006F4C56 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC7EEA1EFCDF9A006F4C56 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2CAC7ED71EFCC1B5006F4C56 /* HitTestWithEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestWithEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAC7EDB1EFCC1B5006F4C56 /* HitTestWithEventUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestWithEventUITests.m; sourceTree = "<group>"; };
 		2CAC7EDD1EFCC1B5006F4C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAC7EE91EFCDF9A006F4C56 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		2CAC7EEA1EFCDF9A006F4C56 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2CAC7EBA1EFCC1B4006F4C56 /* AppDelegate.m */,
 				2CAC7EBC1EFCC1B4006F4C56 /* ViewController.h */,
 				2CAC7EBD1EFCC1B4006F4C56 /* ViewController.m */,
+				2CAC7EE91EFCDF9A006F4C56 /* TestView.h */,
+				2CAC7EEA1EFCDF9A006F4C56 /* TestView.m */,
 				2CAC7EBF1EFCC1B4006F4C56 /* Main.storyboard */,
 				2CAC7EC21EFCC1B4006F4C56 /* Assets.xcassets */,
 				2CAC7EC41EFCC1B4006F4C56 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAC7EEB1EFCDF9A006F4C56 /* TestView.m in Sources */,
 				2CAC7EBE1EFCC1B4006F4C56 /* ViewController.m in Sources */,
 				2CAC7EBB1EFCC1B4006F4C56 /* AppDelegate.m in Sources */,
 				2CAC7EB81EFCC1B4006F4C56 /* main.m in Sources */,
